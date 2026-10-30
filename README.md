@@ -55,7 +55,7 @@ English / [简体中文](./README_CN.md)
 
 > Before build, please set env ENABLE_MCP=true
 
-<img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
+<img src="./docs/images/mcp-market.png" alt="NextChat MCP Market" />
 
 ## Enterprise Edition
 
@@ -357,7 +357,8 @@ Customize Stability API url.
 
 ### `ENABLE_MCP` (optional)
 
-Enable MCP（Model Context Protocol）Feature
+Enable MCP（Model Context Protocol）Feature. For security, MCP also requires
+`CODE` to be configured; all MCP server actions verify that access code.
 
 ### `SILICONFLOW_API_KEY` (optional)
 
